@@ -1,7 +1,15 @@
+import Todo from "./Todo";
+import Diolog from "./Diolog";
+
 function App() {
   return (
-    
-    <div>Hello! Let's start react</div>
+    <div>
+      List
+      <Todo text="Swimming" />
+      <Todo text="Dancing" />
+      <Todo text="Coding" />
+      <Diolog />
+    </div>
   );
 }
 
