@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import classes from "./NavigateBar.module.css";
 
 function NavigateBar() {
   return (
-    <header>
-      <div>Last Night Stock Info</div>
+    <header className={classes.header}>
+      <h1>Last Night Stock Info</h1>
       <nav>
         <ul>
           <li>
