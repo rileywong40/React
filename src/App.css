@@ -1,11 +1,24 @@
 * {
     box-sizing: border-box;
   }
-  
+  html {
+   height: 100%;
+   width: 100%;
+    background-image: url("img/SUNSET-scaled.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;  
+    background-color: #cccccc;   
+  }
   body {
     font-family: sans-serif;
     margin: 3rem;
-    background-color: #dfdfdf;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
   }
   
   h1, h2 {
@@ -70,4 +83,12 @@
     height: 100vh;
     top: 0;
     left: 0;
+  }
+
+  footer{
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    color: white;
   }
