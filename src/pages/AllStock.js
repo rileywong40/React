@@ -17,7 +17,7 @@ function AllStock() {
     <div>
       <h1>AllStock</h1>
       {datasets.map((e) => {
-        return <StockInfoItem data={e} />;
+        return <StockInfoItem data={e} key={e.stockCode} />;
       })}
     </div>
   );

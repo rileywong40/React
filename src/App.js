@@ -14,11 +14,10 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<Home />}>
-          <Route path="favorites" element={<FavoritesStock />} />
-          <Route path="recent" element={<RecentStock />} />
-          <Route path="all" element={<AllStock />} />
-        </Route>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/favorites" element={<FavoritesStock />} />
+        <Route path="/recent" element={<RecentStock />} />
+        <Route path="/all" element={<AllStock />} />
       </Routes>
 
       <Footer />
